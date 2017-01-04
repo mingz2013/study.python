@@ -1,0 +1,16 @@
+'''
+Created on 2013-6-25
+
+@author: root
+'''
+import tkinter
+
+if __name__ == '__main__':
+    pass
+root = tkinter.Tk()
+var = tkinter.StringVar()
+entry = tkinter.Entry(root, textvarible = var)
+entry.focus_set()
+entry.pack()
+var.set(root.title())
+def changeTitle(): root.title(var.get())

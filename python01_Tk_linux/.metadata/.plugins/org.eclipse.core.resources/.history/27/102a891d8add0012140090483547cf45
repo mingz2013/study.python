@@ -1,0 +1,7 @@
+'''
+Created on 2013-6-25
+
+@author: root
+'''
+import sys, Tkinter
+Tkinter.Label(text = "Welcome").pack()

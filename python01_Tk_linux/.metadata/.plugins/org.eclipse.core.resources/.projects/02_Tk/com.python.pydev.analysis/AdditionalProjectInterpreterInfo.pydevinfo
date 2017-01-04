@@ -1,0 +1,23 @@
+-- VERSION_3
+-- START DISKCACHE
+/media/mingzz/disk1/studymyself/python01/.metadata/.plugins/org.eclipse.core.resources/.projects/02_Tk/com.python.pydev.analysis/v1_indexcache
+.v1_indexcache
+Tk.__init__|0|/media/mingzz/disk1/studymyself/python01/02_Tk/src/Tk/__init__.py
+Tk.Tk|0|/media/mingzz/disk1/studymyself/python01/02_Tk/src/Tk/Tk.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+3=MainWindow.__init__
+1=Tk.Tk
+2=MainWindow
+-- END DICTIONARY
+-- START TREE 1
+1
+mai|1|MainWindow!9@
+-- END TREE
+-- START TREE 2
+3
+!<m|0|
+__i|1|__init__!2&10@
+par|1|parent!3&11@
+-- END TREE

@@ -1,0 +1,20 @@
+'''
+Created on 2013-6-25
+
+@author: root
+'''
+import tkinter
+
+if __name__ == '__main__':
+    pass
+root = tkinter.Tk()
+var = tkinter.StringVar()
+entry = tkinter.Entry(root, textvariable = var)
+entry.focus_set()
+entry.pack()
+var.set(root.title())
+def changeTitle(): root.title(var.get())
+tkinter.Button(root, text = "Change Title", command = changeTitle).pack()
+tkinter.Button(root, text = "Iconify", command = root.iconify).pack()
+tkinter.Button(root, text = "Close", command = root.destroy).pack()
+tkinter.mainloop()

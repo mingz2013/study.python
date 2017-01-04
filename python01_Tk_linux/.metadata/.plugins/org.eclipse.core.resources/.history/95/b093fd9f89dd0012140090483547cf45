@@ -1,0 +1,12 @@
+'''
+Created on 2013-6-25
+
+@author: root
+'''
+import tkinter
+class MainWindow(tkinter.Frame):
+    
+    def __init__(self, parent):
+        super().__init__(parent)
+        self.parent = parent
+        self.grid(row = 0,  column = 0)

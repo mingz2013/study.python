@@ -1,0 +1,18 @@
+'''
+Created on 2013-6-25
+
+@author: root
+'''
+import tkinter
+import time
+
+if __name__ == '__main__':
+    pass
+
+curtime = ''
+clock = tkinter.Label()
+clock.pack()
+
+def tick():
+    global curtime
+    newtime = Time
