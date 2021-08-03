@@ -8,6 +8,6 @@ class ClassName(object):
 
 
 def main():
-	print "haha"
+	print("haha")
 if __name__ == '__main__':
 	main()

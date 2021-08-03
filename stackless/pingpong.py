@@ -1,10 +1,10 @@
-__author__ = 'tuyou'
+
 def ping():
-    print "PING"
+    print("PING")
     pong()
 
 def pong():
-    print "PONG"
+    print("PONG")
     ping()
 
 ping()

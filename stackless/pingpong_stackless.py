@@ -1,4 +1,4 @@
-__author__ = 'tuyou'
+
 import stackless
 
 ping_channel = stackless.channel()

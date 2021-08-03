@@ -1,4 +1,4 @@
-__author__ = 'tuyou'
+
 import thread
 import random
 import sys

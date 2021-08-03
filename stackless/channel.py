@@ -1,4 +1,4 @@
-__author__ = 'tuyou'
+
 '''
 通道使得微进程之间的信息传递成为可能。它做到了两件事：
 1.	能够在微进程之间交换信息。
@@ -12,17 +12,17 @@ import stackless
 channel = stackless.channel()
 
 def receiving_tasklet():
-    print "Receiving tasklet started"
-    print channel.receive()
-    print "Receiving tasklet finished"
+    print("Receiving tasklet started")
+    print(channel.receive())
+    print("Receiving tasklet finished")
 
 def sending_tasklet():
-    print "Sending tasklet started"
+    print("Sending tasklet started")
     channel.send("send from sending tasklet")
-    print "sending tasklet finished"
+    print("sending tasklet finished")
 
 def another_tasklet():
-    print "just another tasklet in the scheduler"
+    print("just another tasklet in the scheduler")
 
 stackless.tasklet(receiving_tasklet)()
 

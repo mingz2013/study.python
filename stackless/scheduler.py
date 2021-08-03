@@ -1,4 +1,4 @@
-__author__ = 'tuyou'
+
 '''
 2.2 调度器(scheduler)
 调度器控制各个微进程运行的顺序。如果刚刚建立了一组微进程，它们将按照建立的顺序来执行。在现实中，一般会建立一组可以再次被调度的微进程，好让每个都有轮次机会。一个快速演示:
@@ -7,11 +7,11 @@ __author__ = 'tuyou'
 import stackless
 
 def print_three_times(x):
-    print "1:", x
+    print("1:", x)
     stackless.schedule()
-    print "2:", x
+    print("2:", x)
     stackless.schedule()
-    print "3:", x
+    print("3:", x)
     stackless.schedule()
 
 stackless.tasklet(print_three_times)('first')

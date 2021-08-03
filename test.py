@@ -1,2 +1,2 @@
-print "haha"
+print("haha")
 
